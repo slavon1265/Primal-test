@@ -7,37 +7,8 @@
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     padding: 20px;
 }
-.container .card-block{
-    margin: 0 auto;
-    max-width:fit-content;
-}
-.card{
-    float: left;
-    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-    margin: 10px;
-    width: 150px;
-    height: auto;
-    padding: 5px;
-    word-wrap: break-word;
-    position: relative;
-    transition: 1s;
-}
-.card:hover{
-    margin-top: 20px;
-}
 
-.card .card-img{
-    height: 100px;
-    background: #ff0000;
-    margin-bottom: 10px;
-}
-.card .card-img img{
-    width: 100%;
-    height: 100%;
-}
-
-.card .card-content{
-    text-align: center;
-
+.size-ctr-block>input::-webkit-slider-thumb{
+    background: red;
+    color: yellow;
 }
